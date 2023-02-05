@@ -1,0 +1,13 @@
+# # ask for Age
+age = input('Enter your age- ')
+if age != "":
+    if 18 <= int(age) < 21:
+        print('You can come with a wristband!')
+    elif int(age) >= 21:
+        print('You are good to come and drink!')
+    else:
+        print('Sorry kid,You can not enter!')
+else:
+    print('Please enter your correct age!')
+
+
